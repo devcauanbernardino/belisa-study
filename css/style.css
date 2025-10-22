@@ -1,0 +1,114 @@
+:root {
+    --white: white;
+    --bege: #ece6d0;
+    --pink: #f0cdf4;
+    --vinho: #27030f;
+    --black: black;
+}
+
+nav {
+    font-family: "Lugrasimo", cursive;
+    background-color: rgba(0, 0, 0, 0.425);
+}
+nav li {
+    font-family: "Cantata One", serif;
+}
+.nav-item  .nav-link{
+    color: white;
+}
+
+.nav-item  .nav-link:hover {
+    color: var(--pink);
+}
+.nav-item  .nav-link:focus {
+    color: var(--pink);
+}
+#wrapper {
+    background-image: url(https://images.squarespace-cdn.com/content/v1/62bdac5c973f1e71adeb91a3/1656597598098-9F1P7J8ZXDMFFHGBFOO8/Stocksy_comp_2303625+copy.jpg?format=2500w);
+    background-size: cover;
+    height: 100vh;
+}
+
+#wrapper h1 {
+    font-family: "Lugrasimo", cursive;
+}
+
+#content {
+    background-color: var(--bege);
+}
+#content h2 {
+    font-family: "Lugrasimo", cursive;
+}
+#content p {
+    font-family: "Cantata One", serif;
+}
+
+#content img {
+    width: 500px;
+    height: 700px;
+    border-radius: 80% 30%;
+}
+
+#image img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+#partners {
+    background-color: var(--vinho);
+    font-family: "Lugrasimo", cursive;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+}
+
+#partners img {
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.315);
+}
+
+#place {
+    background-image: url(https://images.squarespace-cdn.com/content/v1/62bdac5c973f1e71adeb91a3/1656597598229-2K285C2XWV7EQNEM7Q7U/Stocksy_comp_2303637.jpg?format=2500w);
+    background-size: cover;
+    height: 70vh;
+    font-family: "Lugrasimo", cursive;
+}
+
+#location {
+    background-color: var(--bege);
+    height: 90vh;
+}
+#location h1 {
+    font-family: "Lugrasimo", cursive;
+}
+#location h2, p {
+    font-family: "Cantata One", serif;
+}
+#location img {
+    width: 500px;
+    height: 700px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.315);
+}
+
+.accordion-item {
+    background-color: var(--bege) !important;
+}
+.accordion-item button { 
+    background-color: var(--bege);
+    border-top: 2px solid rgba(0, 0, 0, 0.562);
+}
+.accordion-item button:focus {
+    background-color: var(--bege);
+    color: var(--black);
+    border-color: none; /* muda a cor da borda */
+    box-shadow: none;
+}
+.accordion-item button:not(.collapsed) {
+    background-color: var(--bege);
+    color: var(--black);
+}
+.accordion-button:not(.collapsed) {
+    background-color: black;
+}
