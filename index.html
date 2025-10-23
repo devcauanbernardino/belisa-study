@@ -18,6 +18,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cantata+One&display=swap" rel="stylesheet">
+
+    <!-- ICONS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+
 </head>
 
 <body>
@@ -27,10 +31,10 @@
             <a class="navbar-brand me-0 fs-2 text-light" href="#">Coctelería de Belisa</a>
             <ul class="nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Localização</a>
+                    <a class="nav-link" href="#location">Localização</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contato</a>
+                    <a class="nav-link" href="#form">Contato</a>
                 </li>
             </ul>
         </div>
@@ -41,13 +45,13 @@
         <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                     <h1 class="text-light text-center display-5">Servindo os clássicos com um toque especial</h1>
+                    <h1 class="text-light text-center display-5">Servindo os clássicos com um toque especial</h1>
                 </div>
                 <div class="carousel-item">
                     <h1 class="text-light text-center display-5">Onde clássicos ganham um toque de magia.</h1>
                 </div>
                 <div class="carousel-item">
-                    <h1 class="text-light text-center display-5">Do tradicional ao inovador, cada drink conta uma história.</h1>
+                    <h1 class="text-light text-center display-5">Cada drink conta uma história.</h1>
                 </div>
             </div>
         </div>
@@ -165,13 +169,80 @@
                 </div>
                 <div class="col-md-6 text-center">
                     <img src="https://images.squarespace-cdn.com/content/v1/62bdac5c973f1e71adeb91a3/1656597598247-WZXU0TMLNDE2P4NC4P3C/Espa%C3%A7o+externo+atr%C3%A1s+da+Cocteler%C3%ADa+de+Rosa?format=2500w"
-                        alt="">
+                        class="mt-4 mb-4" alt="img">
                 </div>
             </div>
         </div>
     </section>
 
+    <section id="form" class="d-flex justify-content-center align-items-center">
+        <div class="container w-50">
+            <div class="row mt-5">
+                <div class="col-md-6">
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control" id="floatingInput" placeholder="Nome">
+                        <label for="floatingInput">Nome</label>
+                    </div>
+                </div>
+                <div class="col-md-6 ">
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control" id="floatingInput" placeholder="Sobrenome">
+                        <label for="floatingInput">Sobrenome</label>
+                    </div>
+                </div>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput">Email</label>
+            </div>
+            <div class="form-floating">
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+                    style="height: 100px"></textarea>
+                <label for="floatingTextarea2">Comments</label>
+            </div>
+            <button class="btn-custom mt-3">Enviar</button>
+        </div>
+    </section>
 
+    <section id="galery" class="d-flex justify-content-center align-items-center">
+        <div class="container mb-5">
+            <div class="row mt-5">
+                <div class="col-md-3 text-center">
+                    <img src="https://images.squarespace-cdn.com/content/v1/62bdac5c973f1e71adeb91a3/1656597598319-0IIC3OPPICOW0R6KWOBE/Stocksy_comp_2548981.jpg?format=500w"
+                        alt="img">
+                </div>
+                <div class="col-md-3 text-center">
+                    <img src="https://images.squarespace-cdn.com/content/v1/62bdac5c973f1e71adeb91a3/1656597598299-DZUCZM9TFKZM8QRW8T2A/Stocksy_comp_2303655.jpg?format=500w"
+                        alt="img">
+                </div>
+                <div class="col-md-3 text-center">
+                    <img src="https://images.squarespace-cdn.com/content/v1/62bdac5c973f1e71adeb91a3/1656597598351-5DOR7AQC7D2UOJMAOCU1/Stocksy_comp_2303628.jpg?format=500w"
+                        alt="img">
+                </div>
+                <div class="col-md-3 text-center">
+                    <img src="https://images.squarespace-cdn.com/content/v1/62bdac5c973f1e71adeb91a3/1656597598336-E9Y8KY4INWKD3IYGIW1Z/Stocksy_comp_1366277.jpg?format=500w"
+                        alt="img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container text-light pb-5">
+            <div class="row">
+                <div class="col-md-6">
+                    <p>Rua Exemplo 123 <br>Los Angeles, CA 12345.</p>
+                    <p>Seg: FECHADO <br> Terça a sábado: das 17h às 2h</p>
+                    <p>Feito por <span class="fw-bold">Cauan Bernardino</span></p>
+                </div>
+                <div class="col-md-6 d-flex justify-content-end">
+                    <a href="" class="text-light fs-3 me-3"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="" class="text-light fs-3 me-3"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="" class="text-light fs-3"><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 
 

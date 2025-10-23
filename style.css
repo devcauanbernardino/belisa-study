@@ -77,7 +77,6 @@ nav li {
 
 #location {
     background-color: var(--bege);
-    height: 90vh;
 }
 #location h1 {
     font-family: "Lugrasimo", cursive;
@@ -111,4 +110,71 @@ nav li {
 }
 .accordion-button:not(.collapsed) {
     background-color: black;
+}
+
+#form {
+    background-color: var(--vinho);
+    
+}
+.btn-custom {
+    background-color: var(--pink);
+    padding: 5px;
+    border: 1px solid var(--vinho);
+    font-family: "Cantata One", serif;
+    border-radius: 5px;
+}
+
+.btn-custom:hover {
+    background-color: var(--vinho);
+    border-color: var(--pink);
+    color: var(--pink);
+}
+
+.label-custom {
+    color: gray;
+}
+
+#galery {
+    background-color: var(--vinho);
+}
+
+#galery img{
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.315);
+}
+
+footer {
+    background-color: var(--vinho);
+    font-family: "Cantata One", serif;;
+}
+
+
+/* MEDIA QUERIES */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+}
+
+/*Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    #galery img {
+        width: 200px;
+    }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    #galery img {
+        width: 300px;
+    }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+
 }
