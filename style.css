@@ -175,9 +175,7 @@ footer {
     }
 
     #partners img {
-        width: 300px;
-        height: 200px;
-        
+       width: 250px;
     }
     #location img {
         width: 300px;
@@ -194,6 +192,10 @@ footer {
 
     #image p {
         text-align: center;
+    }
+    #image img {
+        width: 200px;
+        height: 200px;
     }
 
 }
@@ -217,9 +219,5 @@ footer {
 @media (max-width: 1400px) {
     #galery img {
         width: 250px;
-    }
-
-    #partners img {
-        width: 400px;
     }
 }
