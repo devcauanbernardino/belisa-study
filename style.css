@@ -64,6 +64,7 @@ nav li {
 }
 
 #partners img {
+    width: 500px;
     border-radius: 10px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.315);
 }
@@ -172,6 +173,12 @@ footer {
        margin-top: 20px;
        text-align: center;
     }
+
+    #partners img {
+        width: 300px;
+        height: 200px;
+        
+    }
     #location img {
         width: 300px;
         height: 400px;
@@ -183,6 +190,10 @@ footer {
 
     #galery img {
         margin-bottom: 20px;
+    }
+
+    #image p {
+        text-align: center;
     }
 
 }
